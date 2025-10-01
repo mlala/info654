@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My great page</title>
+<meta name="description" content="A first web page.">
+<meta name="keywords" content="HTML,CSS,webpage">
+<meta name="author" content="Diana Pan"> </head>
+<body>
+    <h2>MY Furry Friend</h2>
+    <h3>Website by Maya Davis</h3>
+    
+    <h4>MY Dog Mango</h4>
+<p>Here she is enjoying the outdoors</p>
+    <img src="#" alt="Small grey, white, and brown dog enjoying sunshine">
+<h4>Birds I like</h4>
+<a href="#">Audobon Society</a>
+    <ul>Birds to Search
+<li>Snowy Owl</li>
+<li>Hummingbird</li>
+<li>Mourning Dove</li>
+    </ul>
+</body>
+</html>

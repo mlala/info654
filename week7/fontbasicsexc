@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{font-style: underline, italic;}
+background{color: pink;}Your styles go here
+</style>
+</head>
+<body>
+<h1>HELLO WORLD!</h1>
+<p>What a great page.</p>
+</body>
+</html>

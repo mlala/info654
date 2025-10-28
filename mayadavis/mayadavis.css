@@ -29,7 +29,6 @@ body {
     width: 20%;
     float: left;
     background: rgba(184, 184, 184, 0.3);
-    object-fit: contain;
 }
 
 #mainDiv {

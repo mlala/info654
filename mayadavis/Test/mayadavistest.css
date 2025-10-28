@@ -1,0 +1,130 @@
+
+
+
+body {
+    background-image: url("quartzbackground.jpeg");
+    font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+
+#grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  
+  padding: 5px;
+}
+
+#header {
+  grid-area: header;
+  text-align: center;
+    padding-bottom: 5px;
+    border-bottom-color: #FC6017;
+    border-bottom-style: solid;
+}
+
+#leftnavbar {
+  grid-area: menu;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightpink; 
+    margin: 10px;
+}
+#mainDiv {
+  grid-area: content;
+    text-align: center;
+    border: dotted;
+    border-width: 2px;
+    border-color: lightpink;
+    margin: 10px;
+    background-color: rgba(184, 184, 184, 0.3);
+}
+#footer {
+  grid-area: footer;
+  text-align: center;  
+ padding-bottom: 5px;
+    border-top-style: solid;
+    border-top-color: #FC6017;
+}
+
+
+
+#mainlistdiv {
+    text-align: left;
+}
+
+a:link {
+  color: #FC6017;
+}
+
+a:visited {
+    color: mediumvioletred;
+}
+
+#published-container {
+  display: grid;
+  grid-template-areas:
+    "title1 title2"
+    "work1 work2"
+    "desc1 desc2";
+  grid-template-columns: auto auto;
+    grid-template-rows: 1fr 3fr 2fr;
+    column-gap: 20px;
+    row-gap: 5px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#published-container div {
+    padding: 5px;
+    background-color: rgba(184, 184, 184, 0.3);   
+}
+
+#item1{place-self: center;}
+#item2{place-self: center;}
+#item3{place-self: center;}
+#item4{place-self: center;}
+#item5{place-self: center;}
+#item6{place-self: center;}
+
+
+.mango-container {
+  display: grid;
+  grid-template-areas:
+    "photo1 about about"
+    "likes dislikes ff"
+    "photo2 photo3 photo4";
+  grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.mango-container div {
+    padding: 5px;
+    background-color: rgba(184, 184, 184, 0.3);   
+}
+
+.mangolist {
+    text-align: left;
+}
+
+.box1{place-self: center;}
+.box2{place-self: center;
+    grid-column: span 2;}
+.box3{place-self: center;}
+.box4{place-self: center;}
+.box5{place-self: center;}
+.box6{place-self: center;}
+.box7{place-self: center;}
+.box8{place-self: center;}
+
+
+
+
